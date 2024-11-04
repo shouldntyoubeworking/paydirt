@@ -23,7 +23,11 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
-const DataTable: React.FC<DataTableProps> = ({ columns, data, row_length }) => {
+interface DataTableProps<TData, TValue> {
+    columns: ColumnDef<TData, TValue>[]
+    data: TData[]
+  }
+const DataTable = ({ columns, data, row_length }) => {
     const [sorting, setSorting] = React.useState<SortingState>([])
     const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
         []
