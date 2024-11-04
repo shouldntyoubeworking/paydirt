@@ -66,7 +66,7 @@ const DataTable = ({ columns, data, row_length }) => {
             </div>
             <div className="rounded-md border">
             <div className="flex items-center justify-end space-x-2 py-4">
-                <div className="space-x-2">
+                <div className="space-x-2 buttons">
                     <Button
                         variant="outline"
                         size="sm"

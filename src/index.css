@@ -215,13 +215,18 @@ div#root {
 
 .rankings-teams.best-of-the-rest .rankings-team {
   text-align: center;
-  height: 5%;
+  height: 3.48vh;
   margin-bottom: 4%;
 }
 .rankings-teams.best-of-the-rest .team-rank {
   width: 10%;
   text-align: center;
   height: 100%;
+}
+.buttons button {
+  padding: 0.3em;
+  background: steelblue;
+  margin-right: 1%;
 }
 
 .rankings-teams.best-of-the-rest .team-label {

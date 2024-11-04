@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import './App.css';
@@ -11,7 +11,7 @@ import AllTeams from './pages/allteams';
 import Rankings from './pages/rankings';
 import Methodology from './pages/methodology';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
