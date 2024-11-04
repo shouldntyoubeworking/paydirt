@@ -1,0 +1,23 @@
+@media (max-width: 1000px) {
+    .logo {
+        width: 6em;
+    }
+
+    .rankings-teams-container {
+        display: block;
+        overflow-y: scroll;
+    }
+
+    .rankings-teams.top-ten {
+        width: 100%;
+    }
+
+    .rankings-teams.best-of-the-rest {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+
+    .footer {
+        font-size: 0.6em;
+    }
+}

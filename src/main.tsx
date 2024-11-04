@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import './index.css';
+import './media.css';
 import Home from './pages';
 import AllTeams from './pages/allteams';
 import Rankings from './pages/rankings';
