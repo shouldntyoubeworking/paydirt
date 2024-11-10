@@ -1,4 +1,4 @@
-import Poll from "@/components/data/v2.json"
+import Poll from "@/components/data/v3.json"
 import Teams from '@/components/data/teams.json';
 import DataTable from "@/components/table/datatable"
 import Layout from "@/components/layout/";
