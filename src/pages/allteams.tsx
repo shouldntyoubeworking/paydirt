@@ -1,4 +1,4 @@
-import Poll from "@/components/data/v3.json"
+import Poll from "@/components/data/v5.json"
 import Teams from '@/components/data/teams.json';
 import DataTable from "@/components/table/datatable"
 import Layout from "@/components/layout/";
@@ -24,6 +24,8 @@ export default function AllTeams(){
             "elo": team.elo,
         }
     })
+    data = data.sort((a, b) => b.elo - a.elo);
+
 
 
     const columns = [
