@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/";
-import Poll from "@/components/data/v5.json"
+import Poll from "@/components/data/v6.json"
 import Teams from '@/components/data/teams.json';
 
 export default function Rankings() {
